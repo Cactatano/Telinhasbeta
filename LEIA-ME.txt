@@ -1,0 +1,29 @@
+TELINHAS P4B1
+=============
+
+O QUE TEM NA PASTA
+  index.html            o Telinhas (tudo em um arquivo)
+  ponte.py              a ponte (programinha do PC, Windows)
+  Iniciar Telinhas.bat  liga a ponte e abre o Telinhas
+  manifest.webmanifest, sw.js, icon-*.png, telinhas.ico   instalar como app e funcionar offline
+
+COLOCAR NO GITHUB
+  Suba TODOS os arquivos (inclusive ponte.py) na raiz de um repositório publico.
+  Depois: Settings > Pages > Deploy from a branch > main > / (root).
+
+TIA B1 (IA no seu computador)
+  1. Abra o Assistente (tecla /) ou Ajustes > TIA B1 e toque em "Ligar".
+  2. Na primeira vez ela baixa um modelo de IA gratuito da internet e guarda no cache do navegador.
+     Depois disso funciona sem internet. O que voce escreve nao sai do computador.
+  3. Poder de processamento: Fraco (modelo ~0,5-1 GB), Medio (~1-2 GB), Forte (~2-3,5 GB), Extremo (~4-5 GB).
+     Se faltar memoria, a TIA desce de nivel sozinha.
+  4. "Pensar mais" faz a TIA raciocinar antes de responder (mais lento, mais esperta).
+  5. Precisa de Chrome ou Edge atualizado e de uma placa de video com WebGPU.
+
+PONTE (abrir programas, volume, musica, CPU/GPU)
+  Modo facil: no site publicado, Ajustes > Ponte > "Baixar o instalador" e abra "Instalar Telinhas.bat".
+  Modo manual: instale o Python (python.org, marque "Add to PATH") e de dois cliques em "Iniciar Telinhas.bat".
+
+FEEDBACK
+  No inicio do script de index.html: const CFG={email:'',repo:'',ver:'P4B1'};
+  Preencha email e repo (https://github.com/usuario/repositorio).
